@@ -1,0 +1,178 @@
+@media (max-width:1100px) {
+
+    .nav {
+        display: none !important;
+
+    }
+
+    #ham {
+        display: block;
+    }
+
+    #selection {
+        grid-template-columns: 1fr 1fr !important;
+        padding: 2rem 2rem !important;
+    }
+
+}
+
+
+
+@media (max-width:750px) {
+    #footer {
+        h1 {
+            font-size: 2rem;
+        }
+
+        a i {
+            left: 45%;
+        }
+    }
+
+    #boss,
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hide {
+        display: none !important;
+    }
+
+
+
+    #wine1 {
+        padding: 1rem 0rem;
+
+        .container {
+            flex-direction: column;
+            width: 100vw !important;
+
+            aside {
+                padding-left: 0rem;
+            }
+        }
+    }
+
+    #owner {
+
+        .container {
+            flex-direction: column;
+
+
+        }
+    }
+
+    #contact2 {
+        width: 100%;
+        padding: 1rem 0rem !important;
+
+        .container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .img {
+                flex: 1;
+                width: 100%;
+            }
+
+            .text {
+                padding-left: 0rem;
+                flex: 1;
+
+
+                .line {
+                    width: 300px;
+                    height: 1px;
+                    background-color: black;
+                }
+
+
+
+                div {
+                    margin: 1rem 0rem !important;
+                }
+
+
+
+            }
+        }
+
+
+
+    }
+
+
+    #res {
+        background: $primary-color;
+        width: 100%;
+        padding: 0rem;
+
+        .container {
+            width: 100%;
+
+            div:nth-child(2) {
+                display: none;
+            }
+
+
+
+        }
+    }
+
+    .wine1 {
+        padding: 2rem 0rem !important;
+
+        .container {
+            aside {
+                padding: 1rem 0rem !important;
+            }
+
+            flex-direction: column;
+            width: 100%;
+            text-align: left;
+            justify-content: center;
+            padding: 0 !important;
+        }
+    }
+
+    #selection {
+        max-width: 70%;
+        text-align: center;
+        margin: auto;
+        padding: 3rem 0rem;
+        display: grid;
+        grid-template-columns: 1fr !important;
+        justify-content: center;
+        align-items: center;
+
+        #one .content .padding,
+        #tow .content .padding,
+        #three .content .padding,
+        #four .content .padding,
+        #five .content .padding,
+        #six .content .padding {
+
+            padding: 5px 1rem !important;
+        }
+
+    }
+
+
+
+
+
+}
+
+@media (max-width:1325px) {
+    #menu .gallery .addtional {
+
+
+        display: none;
+
+    }
+}

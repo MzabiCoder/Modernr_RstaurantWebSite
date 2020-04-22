@@ -1,0 +1,218 @@
+ @import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap");
+ 
+
+#menu1 {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    position: relative;
+    background: url('https://images.pexels.com/photos/3217156/pexels-photo-3217156.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center center / cover;
+
+    &:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding-top: 20rem;
+        position: relative;
+        z-index: 2;
+
+
+    }
+
+}
+:root {
+    --mainPink: #ef7998;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+    --mainGrey: rgb(238, 238, 238);
+  }
+  
+   
+  
+  
+  #store-items{
+    width: 100%;
+    max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+ 
+  }
+  
+   
+  
+  .input-group-prepend {
+    outline: none !important;
+  }
+  
+  #search-icon {
+    background-color: var(--mainPink);
+    color: var(--mainWhite);
+  }
+  
+  .single-item {
+    transition: all 1s linear
+  }
+  
+  .single-item:hover {
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+  }
+  
+  .img-container {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .store-image {
+    transition: all 1s ease-in-out;
+    width: 300px;
+    height: 300px;
+  
+  }
+  
+  .img-container:hover .store-image {
+    transform: scale(1.2);
+    background: black;
+    opacity: .8;
+  }
+  
+  
+  .store-item-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .3rem;
+    border-top-left-radius: 15%;
+    background-color: rgb(114, 112, 112);
+    color: var(--mainBlack);
+    border: .3rem solid var (var(--mainBlack));
+    transition: all 1s ease-in-out;
+    transform: translate(100%, 100%);
+  
+  }
+  
+  .img-container:hover .store-item-icon {
+    transform: translate(0, 0);
+  }
+  
+  .store-item-icon:hover {
+    color: var(--mainWhite)
+  }
+  
+
+  
+
+
+#tow {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding: 2rem 0px;
+  
+  }
+  
+  
+  
+  #row1 {
+    padding: 2rem 1rem;
+  
+  
+  }
+  
+  #row1 .container {
+    text-align: left
+  }
+  
+  .btn2 {
+    text-decoration: none;
+    padding: 0px 2rem;
+    border: 2px solid var(--mainBlack);
+    text-transform: capitalize;
+    color: var(--mainBlack);
+    float: left;
+    transition: all .6s ease-in-out;
+  
+  
+  
+  }
+  
+  .btn2:hover {
+    color: var(--mainWhite);
+    background: var(--mainPink);
+    text-decoration: none;
+  }
+  
+  .about_image {
+    position: relative;
+  }
+  
+  .about_image img {
+    width: 100%;
+  }
+  
+  #white {
+    color: var(--mainBlack);
+    transition: all .5s ease-in-out
+  }
+  
+  #white:hover {
+    color: var(--mainPink);
+  }
+  
+  
+  
+  .about_image::before {
+    content: "";
+    position: absolute;
+  
+    top: -1.5rem;
+    left: -1.5rem;
+  
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid var(--mainYellow);
+    z-index: -1;
+    transition: all .7s ease-in-out;
+  }
+  
+  
+  .about_image:hover:before {
+    top: 0rem;
+    left: 0rem;
+  
+  }
+  
+.text{
+    font-size: 1.7rem;
+    text-align: left;
+}
+ 
+
+#bread {
+    background: url("https://images.pexels.com/photos/209194/pexels-photo-209194.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 70vh;
+    position: relative;
+
+}

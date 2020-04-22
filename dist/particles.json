@@ -1,0 +1,11 @@
+{
+    "particles": {
+        "number": {
+            "value": 250
+        },
+        "shape": {
+            "type": "square"
+        }
+
+    }
+}

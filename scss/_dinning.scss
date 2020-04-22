@@ -1,0 +1,154 @@
+#dining {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: url('https://images.pexels.com/photos/313715/pexels-photo-313715.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    .content {
+        color: white;
+        padding-top: 20rem;
+        z-index: 2;
+
+    }
+
+
+
+
+    &:after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 1;
+
+    }
+
+
+
+    a .fas {
+        position: absolute;
+        bottom: 20px;
+        left: 48%;
+        font-size: 4rem;
+        color: white;
+        z-index: 4;
+        animation: arrow 1s forwards infinite 1s;
+
+    }
+
+    @keyframes arrow {
+        from {
+            bottom: 35px;
+        }
+
+        to {
+            bottom: 20px;
+        }
+    }
+
+
+}
+
+.wine1 {
+    background: $primary-color;
+    padding: 4rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+
+
+        aside {
+
+            text-align: left;
+            color: white;
+            padding-left: 3rem;
+
+
+            h1 {
+                padding: .3rem;
+                margin: .3rem;
+                font-size: 3rem;
+            }
+
+            p {
+                padding: .3rem;
+                margin: .3rem;
+            }
+        }
+
+
+        .img-cont {
+            img {
+                width: 100%;
+
+            }
+        }
+
+    }
+}
+
+#wine2 {
+    width: 100%;
+    height: 80vh;
+    background: url('https://images.pexels.com/photos/1673876/pexels-photo-1673876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center center / cover;
+    background-attachment: fixed;
+    position: relative;
+
+
+
+
+    .content {
+        width: 100%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 2;
+
+
+
+
+        h1 {
+            padding: 2rem;
+            margin: 1rem;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+            padding: 1rem;
+            margin: 2rem;
+        }
+    }
+}
+
+#wine3 {
+    width: 100%;
+    height: 80vh;
+    background: url('https://images.pexels.com/photos/696618/pexels-photo-696618.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') no-repeat center center / cover;
+    background-attachment: fixed;
+    position: relative;
+
+
+
+}
