@@ -12,6 +12,6 @@
   "license": "ISC",
   "homepage": "https://MzabiCoder.github.io/ComptoirRestaurant",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
